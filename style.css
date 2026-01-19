@@ -80,7 +80,7 @@ body{
   inset: 0;
   background:
     linear-gradient(180deg, rgba(11,12,16,0.55), rgba(11,12,16,0.92)),
-    url("assets/hero.jpg") center/cover no-repeat;
+    center/cover no-repeat;
   opacity: 0.95;
 }
 .hero-content{
