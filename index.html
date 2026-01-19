@@ -107,145 +107,162 @@
       </div>
     </section>
 
-    <!-- PROJECTS -->
-    <section id="projects" class="section container">
-      <div class="section-title">
-        <h2>Portfolio</h2>
-        <p class="muted">Selected projects (design → build → test).</p>
+<!-- PROJECTS -->
+<section id="projects" class="section container">
+  <div class="section-title">
+    <h2>Portfolio</h2>
+    <p class="muted">Selected projects (design → build → test).</p>
+  </div>
+
+  <div class="project-grid">
+    <!-- Awake -->
+    <article class="project">
+      <div class="project-media">
+        <img src="assets/projects/awake.jpg" alt="Awake Challenge autonomous vehicle" />
       </div>
-
-      <div class="project-grid">
-        <!-- Awake -->
-        <article class="project">
-          <a class="project-media">
-            <img src="assets/projects/awake.jpg" alt="Awake Challenge autonomous vehicle" />
-          </a>
-          <div class="project-body">
-            <div class="project-top">
-              <h3>Awake Challenge — 1:10 Autonomous Vehicle</h3>
-              <span class="tag">Team</span>
-            </div>
-            <p>
-              Designed a robust chassis and stable LiDAR/sensor mounts; supported autonomy integration for a national competition.
-            </p>
-            <ul>
-              <li><b>CAD:</b> SolidWorks (stiffness, alignment, manufacturability)</li>
-              <li><b>System:</b> Raspberry Pi + Arduino (actuators + sensors)</li>
-              <li><b>Autonomy:</b> line following, obstacle detection, turning</li>
-            </ul>
-            </div>
-          </div>
-        </article>
-
-        <!-- STM32 -->
-        <article class="project">
-          <a class="project-media">
-            <img src="assets/projects/stm32.jpg" alt="STM32 robotic car" />
-          </a>
-          <div class="project-body">
-            <div class="project-top">
-              <h3>STM32 Robotic Car — Embedded Autonomy</h3>
-              <span class="tag">Embedded</span>
-            </div>
-            <p>
-              Implemented sensor-based behaviors and closed-loop steering control on an STM32 platform.
-            </p>
-            <ul>
-              <li><b>Functions:</b> obstacle detection, line following, autonomous turning</li>
-              <li><b>Control:</b> closed-loop steering / actuator control</li>
-              <li><b>Tools:</b> C/C++, timers/interrupts (edit to match your setup)</li>
-            </div>
-          </div>
-        </article>
-
-        <!-- Robot arm -->
-        <article class="project">
-          <a class="project-media">
-            <img src="assets/projects/arm.jpg" alt="4-axis robot arm" />
-          </a>
-          <div class="project-body">
-            <div class="project-top">
-              <h3>4-Axis Robot Arm — 5 kg Payload</h3>
-              <span class="tag">Robotics</span>
-            </div>
-            <p>
-              SolidWorks design + 3D-printed prototype; stepper control using Arduino and digital drivers.
-            </p>
-            <ul>
-              <li><b>CAD:</b> SolidWorks</li>
-              <li><b>Build:</b> 3D printing + assembly</li>
-              <li><b>Control:</b> Arduino + stepper drivers</li>
-            </ul>
-            </div>
-          </div>
-        </article>
-        <!-- System engineering -->
-        <article class="project">
-          <a class="project-media">
-            <img src="assets/projects/system-engineering.jpg" alt="System engineering project" />
-          </a>
-          <div class="project-body">
-            <div class="project-top">
-              <h3>System Engineering — Carbon-Neutral Urban Delivery Concept</h3>
-              <span class="tag">Systems</span>
-            </div>
-            <p>
-              Led a 6-person team to engineer a decarbonized urban delivery concept from stakeholder needs to system requirements and architecture.
-            </p>
-            <ul>
-              <li><b>Methods:</b> stakeholder analysis, requirements, functional analysis</li>
-              <li><b>Work:</b> system architecture, trade-offs, project planning</li>
-              <li><b>Deliverables:</b> requirements spec + concept documentation</li>
-            </ul>
-            </div>
-          </div>
-        </article>
-        <!-- Robot arm axis (TopSolid) -->
-        <article class="project">
-          <div class="project-media">
-            <img src="assets/projects/robot-arm-axis.jpg" alt="Robot arm axis designed in TopSolid" />
-          </div>
-          <div class="project-body">
-            <div class="project-top">
-              <h3>4-Axis Robot Arm — Axis Design & Manufacturing</h3>
-              <span class="tag">Mechanical</span>
-            </div>
-            <p>
-              Designed one axis of a 4-axis robot arm prototype in TopSolid for a restaurant application and manufactured key components.
-            </p>
-            <ul>
-              <li><b>CAD:</b> TopSolid (part + assembly design)</li>
-              <li><b>Manufacturing:</b> sheet metal fabrication, lathe turning, 3D printing</li>
-              <li><b>Focus:</b> manufacturability, assembly fit, functional prototyping</li>
-            </ul>  
-            </div>
-          </div>
-        </article>
-
-        <!-- Overhead crane -->
-        <article class="project">
-          <a class="project-media" >
-            <img src="assets/projects/overhead-crane.jpg" alt="Overhead crane project" />
-          </a>
-          <div class="project-body">
-            <div class="project-top">
-              <h3>Overhead Crane</h3>
-              <span class="tag">Mechanical</span>
-            </div>
-            <p>
-              Designed an overhead crane and validated structural performance using FEA, then sized key mechanical components.
-            </p>
-            <ul>
-              <li><b>CAD:</b> TopSolid</li>
-              <li><b>Analysis:</b> FEA using RDM7 (stress / deflection validation)</li>
-              <li><b>Engineering:</b> component sizing and design iteration based on results</li>
-            </ul>
-            </div>
-          </div>
-        </article>
-
+      <div class="project-body">
+        <div class="project-top">
+          <h3>Awake Challenge — 1:10 Autonomous Vehicle</h3>
+          <span class="tag">Team</span>
+        </div>
+        <p>
+          Designed a robust chassis and stable LiDAR/sensor mounts; supported autonomy integration for a national competition.
+        </p>
+        <ul>
+          <li><b>CAD:</b> SolidWorks (stiffness, alignment, manufacturability)</li>
+          <li><b>System:</b> Raspberry Pi + Arduino (actuators + sensors)</li>
+          <li><b>Autonomy:</b> line following, obstacle detection, turning</li>
+        </ul>
+        <div class="project-links">
+          <a class="pill" href="https://github.com/mathisjegou/YOUR-AWAKE-REPO" target="_blank" rel="noreferrer">Repo</a>
+          <a class="pill" href="#" target="_blank" rel="noreferrer">Video</a>
+        </div>
       </div>
-    </section>
+    </article>
+
+    <!-- STM32 -->
+    <article class="project">
+      <div class="project-media">
+        <img src="assets/projects/stm32.jpg" alt="STM32 robotic car" />
+      </div>
+      <div class="project-body">
+        <div class="project-top">
+          <h3>STM32 Robotic Car — Embedded Autonomy</h3>
+          <span class="tag">Embedded</span>
+        </div>
+        <p>
+          Implemented sensor-based behaviors and closed-loop steering control on an STM32 platform.
+        </p>
+        <ul>
+          <li><b>Functions:</b> obstacle detection, line following, autonomous turning</li>
+          <li><b>Control:</b> closed-loop steering / actuator control</li>
+          <li><b>Tools:</b> C/C++, timers/interrupts</li>
+        </ul>
+        <div class="project-links">
+          <a class="pill" href="https://github.com/mathisjegou/YOUR-STM32-REPO" target="_blank" rel="noreferrer">Repo</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Robot arm -->
+    <article class="project">
+      <div class="project-media">
+        <img src="assets/projects/arm.jpg" alt="4-axis robot arm" />
+      </div>
+      <div class="project-body">
+        <div class="project-top">
+          <h3>4-Axis Robot Arm — 5 kg Payload</h3>
+          <span class="tag">Robotics</span>
+        </div>
+        <p>
+          SolidWorks design + 3D-printed prototype; stepper control using Arduino and digital drivers.
+        </p>
+        <ul>
+          <li><b>CAD:</b> SolidWorks</li>
+          <li><b>Build:</b> 3D printing + assembly</li>
+          <li><b>Control:</b> Arduino + stepper drivers</li>
+        </ul>
+        <div class="project-links">
+          <a class="pill" href="https://github.com/mathisjegou/YOUR-ARM-REPO" target="_blank" rel="noreferrer">Repo</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- System engineering -->
+    <article class="project">
+      <div class="project-media">
+        <img src="assets/projects/system-engineering.jpg" alt="System engineering project" />
+      </div>
+      <div class="project-body">
+        <div class="project-top">
+          <h3>System Engineering — Carbon-Neutral Urban Delivery Concept</h3>
+          <span class="tag">Systems</span>
+        </div>
+        <p>
+          Led a 6-person team to engineer a decarbonized urban delivery concept from stakeholder needs to requirements and architecture.
+        </p>
+        <ul>
+          <li><b>Methods:</b> stakeholder analysis, requirements, functional analysis</li>
+          <li><b>Work:</b> system architecture, trade-offs, project planning</li>
+          <li><b>Deliverables:</b> requirements spec + concept documentation</li>
+        </ul>
+        <div class="project-links">
+          <a class="pill" href="https://github.com/mathisjegou/YOUR-SYSENG-REPO" target="_blank" rel="noreferrer">Repo</a>
+          <a class="pill" href="#" target="_blank" rel="noreferrer">Slides</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Robot arm axis (TopSolid) -->
+    <article class="project">
+      <div class="project-media">
+        <img src="assets/projects/robot-arm-axis.jpg" alt="Robot arm axis designed in TopSolid" />
+      </div>
+      <div class="project-body">
+        <div class="project-top">
+          <h3>4-Axis Robot Arm — Axis Design & Manufacturing</h3>
+          <span class="tag">Mechanical</span>
+        </div>
+        <p>
+          Designed one axis of a 4-axis robot arm prototype in TopSolid for a restaurant application and manufactured key components.
+        </p>
+        <ul>
+          <li><b>CAD:</b> TopSolid (part + assembly design)</li>
+          <li><b>Manufacturing:</b> sheet metal fabrication, lathe turning, 3D printing</li>
+          <li><b>Focus:</b> manufacturability, assembly fit, functional prototyping</li>
+        </ul>
+        <div class="project-links">
+          <a class="pill" href="https://github.com/mathisjegou/YOUR-AXIS-REPO" target="_blank" rel="noreferrer">Repo</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Overhead crane -->
+    <article class="project">
+      <div class="project-media">
+        <img src="assets/projects/overhead-crane.jpg" alt="Overhead crane project" />
+      </div>
+      <div class="project-body">
+        <div class="project-top">
+          <h3>Overhead Crane — Design & Structural Validation</h3>
+          <span class="tag">Mechanical</span>
+        </div>
+        <p>
+          Designed an overhead crane and validated structural performance using FEA, then sized key mechanical components.
+        </p>
+        <ul>
+          <li><b>CAD:</b> TopSolid</li>
+          <li><b>Analysis:</b> FEA using RDM7 (stress / deflection validation)</li>
+          <li><b>Engineering:</b> component sizing and design iteration based on results</li>
+        </ul>
+        <div class="project-links">
+          <a class="pill" href="https://github.com/mathisjegou/YOUR-CRANE-REPO" target="_blank" rel="noreferrer">Repo</a>
+          <a class="pill" href="#" target="_blank" rel="noreferrer">Report</a>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
 
     <!-- RESUME -->
     <section id="resume" class="section container">
